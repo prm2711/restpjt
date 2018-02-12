@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+body {
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+
+.caption {
+	color: orange;
+}
+
+table {
+	position: absolute;
+	top: 100px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid white;
+    opacity: 0.9;
+}
+
+th,td {
+	padding: 10px;
+    text-align: left;
+}
+
+th {
+	height: 50px;
+	background-color: gray;
+    color: black;
+}
+
+td {
+	height: 25px;
+	background-color: #d3d3d3;
+	color: black;
+}
+
+.display {
+	color: red;
+}

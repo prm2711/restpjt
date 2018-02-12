@@ -1,0 +1,97 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image:
+		url("../images/background1.jpg");
+	position: relative;
+	height: 140vh;
+	background-size: 100% 100%;
+	width: 100%;
+	margin: 0px;
+}
+
+.insert-data {
+	padding: 0px;
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 2px;
+	overflow: hidden;
+	position: absolute;
+	top: 250px;
+}
+
+.insert-data h2 {
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+	color: #000080;
+}
+
+input, input[type="text"] {
+	box-sizing: border-box;
+	outline: none;
+	display: block;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid blue;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+	color: black;
+}
+
+input[type=text]:focus, input:focus {
+	border: 1px solid #b9b9b9;
+	border-top: 1px solid #a0a0a0;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	background: white;
+	opacity: 1;
+}
+
+.submitButton {
+	background-color: #2CBBBB;
+	border: 1px solid #27A0A0;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 8px;
+	display: block;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.submitButton:hover {
+	background: linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+	background-color: #34CACA;
+}
+
+.ui-autocomplete-input {
+	overflow-y: auto;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+	/* add padding for vertical scrollbar */
+	padding-right: 5px;
+	writing-mode: vertical-lr;
+}
+
+.ui-autocomplete {
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: default;
+}
+
+.row {
+	width: 100%;
+}
+
+input {
+	width: 100%;
+}
+
+.set-width {
+	margin: 0 auto;
+}
